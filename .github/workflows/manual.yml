@@ -1,4 +1,4 @@
-name: Python application - Manual Workflow
+name: Manual Workflow
 
 on: workflow_dispatch
 
