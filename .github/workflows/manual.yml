@@ -7,7 +7,6 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -25,6 +24,11 @@ jobs:
       run: |
         python -m venv venv
         source venv/bin/activate
+  
+  test_matrix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
     - name: Test with unittest
       run: |
         python -m unittest discover -s tests -p "*_test.py" -v
