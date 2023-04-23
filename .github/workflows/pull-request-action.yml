@@ -53,4 +53,4 @@ jobs:
         source venv/bin/activate
     - name: Test with unittest
       run: |
-        python -m unittest discover -s . -p "test_*.py" -v
+        python -m unittest discover -s . -p "test_suite*.py" -v
