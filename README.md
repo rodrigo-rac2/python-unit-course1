@@ -11,4 +11,4 @@ Python 3.6 or higher
 2. Create a virtual environment using `python -m venv venv`
 3. Activate the virtual environment using `source venv/bin/activate`
 4. Install the dependencies using `pip install -r requirements.txt`
-5. Run the tests using `unittest` with the following command: `python -m unittest discover -s tests -p "*_test.py" -v`
+5. Run the tests using `unittest` with the following command: `python -m unittest discover -s . -p "test_*.py" -v`
