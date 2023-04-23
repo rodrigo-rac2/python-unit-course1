@@ -2,7 +2,7 @@ import unittest
 from unittesting02.calculator02 import Calculator
 
 
-class TestCalculatorSKip(unittest.TestCase):
+class TestCalculatorSetupTeardown(unittest.TestCase):
     """
     A test class for the additional functionality of Add method in the Calculator class.
     """

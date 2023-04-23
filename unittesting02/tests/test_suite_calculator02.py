@@ -10,6 +10,12 @@
 """
 
 # 1. Import unittest & the required module(s)
+import unittest
+from unittesting02.tests.test_calculator02_01 import TestCalculator
+from unittesting02.tests.test_add_calculator02 import TestCalculatorAddBase
+from unittesting02.tests.test_add_calculator02 import TestCalculatorAddAdditional
+from unittesting02.tests.test_setup_teardown_calculator02 import TestCalculatorSetupTeardown
+from unittesting02.tests.test_skip_calculator02 import TestCalculatorSKip
 
 # 2. Create an instance of the TestLoader
 
