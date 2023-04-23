@@ -7,4 +7,4 @@ def calc_sub(a, b):
 
 
 if __name__ == '__main__':
-    print("Imported calculator.py")
+    print("Imported test_calculator.py")
