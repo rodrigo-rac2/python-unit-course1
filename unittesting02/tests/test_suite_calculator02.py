@@ -39,7 +39,16 @@ suite.addTests(loader.loadTestsFromTestCase(TestCalculatorSetupTeardown))
 suite.addTests(loader.loadTestsFromTestCase(TestCalculatorSKip))
 
 # 5. Create an instance of the TextTestRunner
-runner = unittest.TextTestRunner(verbosity=2)
+runner = unittest.TextTestRunner()
 
 # 6. Run the TextTestRunner instance
-runner.run(suite)
+test_results = runner.run(suite)
+
+print("===================================")
+print("Test suite 02 results:")
+print("Tests run: ", test_results.testsRun)
+print("Skipped: ", len(test_results.skipped))
+print("Failures: ", len(test_results.failures))
+print("Errors: ", len(test_results.errors))
+print("Successful: ", test_results.wasSuccessful())
+
